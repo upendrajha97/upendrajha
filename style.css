@@ -1,49 +1,90 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #f9f9f9;
-    color: #222;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background: #f6f3ee;
+    color: #3a2c1a;
     margin: 0;
     padding: 0;
+    line-height: 1.7;
+    letter-spacing: 0.01em;
+    transition: background 0.3s, color 0.3s;
 }
+
 header {
-    background: #222;
-    color: #fff;
-    padding: 1rem 2rem;
+    background: #ede6dd;
+    color: #5a4632;
+    padding: 1.5rem 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid #e0d6c3;
+    box-shadow: 0 2px 8px rgba(180, 160, 120, 0.04);
 }
+
 header h1 {
     margin: 0;
-    font-size: 2rem;
+    font-size: 2.2rem;
+    font-family: 'Merriweather', 'Georgia', serif;
+    font-weight: 700;
 }
+
 nav a {
-    color: #fff;
+    color: #7a5c2e;
     text-decoration: none;
-    margin-left: 1rem;
+    margin-left: 1.2rem;
     font-weight: 500;
+    padding: 0.2rem 0.7rem;
+    border-radius: 5px;
+    transition: background 0.2s, color 0.2s;
 }
+nav a:hover {
+    background: #f3e7d7;
+    color: #3a2c1a;
+}
+
 main {
-    max-width: 700px;
-    margin: 2rem auto;
-    background: #fff;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    max-width: 720px;
+    margin: 2.5rem auto 4rem auto;
+    background: #fdfaf6;
+    padding: 2.5rem 2rem;
+    border-radius: 14px;
+    box-shadow: 0 4px 24px rgba(180, 160, 120, 0.07);
+    font-size: 1.13rem;
 }
+
 article {
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
+
 article h2 {
     margin-top: 0;
+    font-family: 'Merriweather', 'Georgia', serif;
+    font-size: 1.7rem;
+    color: #6b4c1b;
+    font-weight: 600;
+    letter-spacing: 0.01em;
 }
+
+article p {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    color: #3a2c1a;
+    background: #f7f3ed;
+    padding: 1.2em 1em;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(180, 160, 120, 0.03);
+    font-size: 1.08em;
+    line-height: 1.8;
+}
+
 footer {
     text-align: center;
-    padding: 1rem;
-    background: #eee;
-    color: #555;
+    padding: 1.2rem;
+    background: #f3e7d7;
+    color: #7a5c2e;
     position: fixed;
     width: 100%;
     bottom: 0;
     left: 0;
+    font-size: 1rem;
+    border-top: 1px solid #e0d6c3;
 }
